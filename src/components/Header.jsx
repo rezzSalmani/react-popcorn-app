@@ -1,6 +1,4 @@
-import React, { useEffect, useContext } from "react";
-import moon from "../assets/moon.svg";
-import sun from "../assets/sun.svg";
+import React from "react";
 import SearchInput from "../UI/SearchInput";
 import { useMovies } from "../hooks/useMovies";
 const Header = ({ darkMode, setDarkMode }) => {
@@ -25,7 +23,7 @@ const Header = ({ darkMode, setDarkMode }) => {
           <span onClick={handleMode} className='p-1 bg-indigo-400  rounded-lg'>
             <img
               className='w-7 h-7 text-zinc-50 cursor-pointer'
-              src={darkMode === "light" ? moon : sun}
+              src={darkMode === "light" ? "/sun.svg" : "/sun.svg"}
               alt='dark'
             />
           </span>

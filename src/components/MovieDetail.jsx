@@ -106,7 +106,7 @@ const MovieDetail = () => {
               <img
                 src={movie?.Poster}
                 alt={movie?.Title}
-                className='w-40 h-52'
+                className='min-w-40 max-w-52 h-52'
               />
             </div>
             <div className='flex gap-2 text-left px-4 flex-col font-lato'>

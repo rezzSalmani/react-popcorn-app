@@ -1,6 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import popcornContext from "../contexts/popcornContext";
-import { KEY, deleteFavoriteMovie } from "../util/util";
+import { deleteFavoriteMovie } from "../util/util";
 import MovieDetail from "./MovieDetail";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 const average = (arr) =>
