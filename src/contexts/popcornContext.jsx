@@ -1,8 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { createContext, useEffect, useReducer } from "react";
 import { getMovieData } from "../util/util";
-import { data } from "autoprefixer";
-const KEY = "55b1b5d0";
+
 const popcornContext = createContext({
   searchInput: "",
   searchInputChange: () => {},

@@ -1,9 +1,8 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import Movies from "./Movies";
 import MovieCart from "./MovieCart";
-import popcornContext from "../contexts/popcornContext";
-import { KEY } from "../util/util";
+
 const Layout = () => {
   const [darkMode, setDarkMode] = useState(() => {
     const savedTheme = localStorage.getItem("theme");

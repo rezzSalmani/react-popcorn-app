@@ -1,4 +1,3 @@
-import { data } from "autoprefixer";
 import { supabase } from "../supabaseClient";
 
 export const KEY = "55b1b5d0";
