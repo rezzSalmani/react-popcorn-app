@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "RocknRoll One";
+    src: url("/fonts/RocknRollOne-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "lato";
+    src: local("Lato-Regular"), url("/fonts/Lato-Regular.ttf"),
+      format("truetype");
+  }
+}
+@layer components {
+  .fix-height {
+    height: calc(100vh - 7.2rem);
+  }
+}
