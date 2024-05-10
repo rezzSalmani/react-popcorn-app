@@ -22,8 +22,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/rezzSalmani/react-popcorn-app">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="">
+    <img src="https://github.com/rezzSalmani/react-popcorn-app/blob/master/public/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Movie & TV Show Review App</h3>
@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot](https://github.com/rezzSalmani/react-popcorn-app/blob/master/src/assets/screenShots/Capture005.png)](https://github.com/rezzSalmani/react-popcorn-app/blob/master/src/assets/screenShots/Capture005.png)
 
 
 
@@ -141,7 +141,17 @@ Follow following steps to run the project.
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
+  
 
+<div align="center" display="inline-block">
+  <a href="" display="inline-block" width="50%" height="100%">
+    <img src="https://github.com/rezzSalmani/react-popcorn-app/blob/master/src/assets/screenShots/Capture001.png" alt="image1" width="50%" height="100%" display="inline-block">
+  </a>
+  <a href="" display="inline-block" width="50%" height="100%">
+    <img src="https://github.com/rezzSalmani/react-popcorn-app/blob/master/src/assets/screenShots/Capture002.png" alt="image2" width="50%" height="100%" display="inline-block">
+  </a>
+
+</div>
 
 
 
