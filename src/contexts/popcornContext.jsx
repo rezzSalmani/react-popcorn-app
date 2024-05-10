@@ -16,7 +16,7 @@ const popcornContext = createContext({
 function handleReducer(state, action) {
   switch (action.type) {
     case "INPUT_CHANGE":
-      return { ...state, searchInput: action.event.target.value };
+      return { ...state, searchInput: action.payload };
     case "LOAD_FAVORITE_MOVIES":
       return {
         ...state,
@@ -70,7 +70,10 @@ export const PopcornProvider = ({ children }) => {
     }
   }, [data]);
   function searchInputChange(event) {
-    dispatchMovies({ type: "INPUT_CHANGE", event });
+    dispatchMovies({
+      type: "INPUT_CHANGE",
+      payload: event.target.value,
+    });
   }
 
   function addMovies(data) {

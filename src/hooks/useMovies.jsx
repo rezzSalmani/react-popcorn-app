@@ -11,7 +11,7 @@ export const useMovies = () => {
     error,
   } = useQuery({
     queryKey: ["movies", searchInput],
-    queryFn: () => fetchMovies(searchInput),
+    queryFn: () => fetchMovies(searchInput.trim()),
     enabled: searchInput.length > 2,
   });
   return { movies, isError, isLoading, error };
