@@ -1,6 +1,6 @@
 import { supabase } from "../supabaseClient";
 
-export const KEY = "55b1b5d0";
+export const KEY = import.meta.env.VITE_OMDB_KEY;
 
 export async function getMovieDetail(id) {
   const response = await fetch(
