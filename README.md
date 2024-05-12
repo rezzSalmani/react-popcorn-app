@@ -131,8 +131,6 @@ Follow following steps to run the project.
    
 8. Start the development server:
    ```sh
-   npm start
-   or
    npm run dev
    ```
 
